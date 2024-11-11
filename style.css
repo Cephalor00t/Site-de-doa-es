@@ -1,0 +1,59 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('images/77\ Sem\ Título_20241109192105.jpg'); /* Caminho da sua imagem */
+  background-size: cover; /* Ajusta a imagem para cobrir a tela inteira */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilo da barra de progresso */
+  .progress-container {
+    position: relative;
+    background-color: #ddd;
+    border-radius: 20px;
+    height: 30px;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #af4c9e, #e779c3);
+    border-radius: 20px;
+    transition: width 0.4s ease;
+  }
+  
+  #progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+  }
+  
