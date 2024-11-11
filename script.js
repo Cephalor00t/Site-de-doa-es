@@ -46,4 +46,4 @@ function iniciarAudio() {
 
 // Exemplo de doações inseridas manualmente pelo dono do site
 addDonation(100); // Adicione a primeira doação de doações
-addDonation(0); // Adicione uma segunda doação de doações
+addDonation(50); // Adicione uma segunda doação de doações
