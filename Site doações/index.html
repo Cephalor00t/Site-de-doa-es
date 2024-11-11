@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campanha de Doações</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="iniciarAudio()">
+  
+  <!-- Elemento de áudio sem autoplay -->
+  <audio id="background-audio" loop hidden>
+    <source src="site periodo loop ver.mp3" type="audio/mpeg">
+    <source src="site periodo loop ver.ogg" type="audio/ogg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+
+  <div class="container">
+    <h1>Campanha de pensos</h1>
+    <p>Ajude-nos a alcançar o nosso objetivo de pensos!</p>
+    
+    <!-- Barra de progresso da meta -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+      <span id="progress-text">0%</span>
+    </div>
+    
+    <!-- Informações da meta e valor arrecadado -->
+    <p id="current-amount">Total de pensos:0</span></p>
+    <p>Objetivo: <span id="goal-amount">1500</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
