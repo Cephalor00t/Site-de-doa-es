@@ -1,11 +1,11 @@
 // Configurações da meta e valor atual
-let goalAmount = 1500;  // Meta em doações
+let goalAmount2 = 3000;  // Meta em doações
 let currentAmount = 0;  // Valor inicial da arrecadação
 
 // Função para atualizar a barra de progresso
 function updateProgress() {
   // Calcula a percentagem de progresso
-  const percentage = Math.min((currentAmount / goalAmount) * 100, 100);
+  const percentage = Math.min((currentAmount / goalAmount2) * 100, 100);
 
   // Atualiza a largura da barra de progresso
   const progressBar = document.getElementById("progress-bar");
@@ -47,3 +47,4 @@ function iniciarAudio() {
 // Exemplo de doações inseridas manualmente pelo dono do site
 addDonation(28); // Adicione a primeira doação de doações
 addDonation(100); // Adicione uma segunda doação de doações
+addDonation(1768); // Adicione uma segunda doação de doações
